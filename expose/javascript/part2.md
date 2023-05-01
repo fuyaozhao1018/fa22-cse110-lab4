@@ -13,7 +13,7 @@ return 150 because the final price is calculated as 300*(1-0.5) and rounded to 1
 
 Question 4 
 
-the finction returns nothing since it is not displayed into console
+the function returns [50,100,150] as the final price
 
 Question 5
 
@@ -30,7 +30,7 @@ return 150 since the final price is calculated as 300*(1-0.5) and rounded to 150
 
 Question 8 
 
-return nothing, since nothing is logged to console.
+the function returns [50,100,150] as the final price
 
 Question 9
 
@@ -43,7 +43,7 @@ return 3, since the length of the list is 3.
 
 Question 11
 
-return nothing, since nothing is logged to console.
+the function returns [50,100,150] as the final price(rounded)
 
 Question 12
 Given the above Object, write the notation for:  (These should be in your part2.md)
