@@ -45,4 +45,43 @@ Question 11
 
 return nothing, since nothing is logged to console.
 
+Question 12
+Given the above Object, write the notation for:  (These should be in your part2.md)
 
+Accessing the value of the name property in the student object
+student.name
+
+Accessing the value of the Grad Year property in the student object
+student['Grad Year']
+
+Calling the function for the greeting property in the student object
+student.greeting();
+
+Accessing the name property of the object in the Favorite Teacher property in student
+student['Favorite Teacher'].name
+
+Access index zero in the array of the courseLoad property of the student object
+student.courseLoad[0]
+
+Question 13
+Arithmetic
+‘3’ + 2
+‘3’ - 2
+3 + null
+‘3’ + null
+true + 3
+false + null
+'3' + undefined
+'3' - undefined
+
+Question 14
+Comparison
+‘2’ > 1
+‘2’ < ‘12’
+2 == ‘2’
+2 === ‘2’
+true == 2
+true === Boolean(2)
+
+Question 15
+Explain the difference between the == and === operators
