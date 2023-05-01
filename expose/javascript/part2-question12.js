@@ -9,3 +9,4 @@ let student = {
     },
     courseLoad: ['CSE 110', 'CSE 134', 'VIS 41']
 };
+

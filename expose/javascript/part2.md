@@ -65,23 +65,41 @@ student.courseLoad[0]
 
 Question 13
 Arithmetic
-‘3’ + 2
-‘3’ - 2
-3 + null
-‘3’ + null
-true + 3
-false + null
-'3' + undefined
-'3' - undefined
+‘3’ + 2             32
+‘3’ - 2             1
+3 + null            3
+‘3’ + null          null
+true + 3            4
+false + null        0
+'3' + undefined     '3undefined'
+'3' - undefined     NaN
 
 Question 14
 Comparison
-‘2’ > 1
-‘2’ < ‘12’
-2 == ‘2’
-2 === ‘2’
-true == 2
-true === Boolean(2)
+‘2’ > 1             true
+‘2’ < ‘12’          false
+2 == ‘2’            true
+2 === ‘2’           false
+true == 2           false
+true === Boolean(2)         true
 
 Question 15
 Explain the difference between the == and === operators
+A regular equality check == has a problem. It cannot differentiate 0 from false
+A strict equality operator === checks the equality without type conversion.
+
+Question 17
+the result will be [2,4,6]
+Here we are passing in the function doSomething as a parameter,
+first we created a new array of constants,
+we iterate through the given array and call doSomething
+on each element, then push the result in the array we created.
+then we return the array we created.
+
+
+Question 19
+1
+4
+3
+2
+
